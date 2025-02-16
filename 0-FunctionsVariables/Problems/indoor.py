@@ -1,4 +1,4 @@
-phrase = input("What are you saying? ")
-lowercase = str.lower(phrase)
+s = input("--> ")
+lowercased = str.lower(s)
 
-print(lowercase)
+print(lowercased)
