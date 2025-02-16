@@ -1,4 +1,5 @@
-s = input("--> ")
-lowercased = str.lower(s)
+# Ask the user for input and convert it to lowercase
+phrase = input("--> ")
+indoor = phrase.lower()
 
-print(lowercased)
+print(indoor)
