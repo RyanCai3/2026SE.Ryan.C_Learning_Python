@@ -53,7 +53,7 @@ Watch the [Functions, Variables](https://schoolsnsw.sharepoint.com/:v:/r/sites/T
 16. [More on Floats](#more-on-floats)
 17. [Def](#def)
 18. [Returning Values](#returning-values)
-    18 [Summing Up](#summing-up)
+19. [Summing Up](#summing-up)
 
 ---
 
