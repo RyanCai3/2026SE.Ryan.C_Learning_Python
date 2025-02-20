@@ -1,9 +1,9 @@
-# Prompts the user for input and print the converted results
+# Prompts the user for input as emoticon and print the converted results
 def main():
-    user_input = input("--> ")
-    print(convert(user_input))
+    emoticon = input("--> ")
+    print(convert(emoticon))
 
-# Convert emoticons to emojis
+# Convert input emoticons to emojis
 def convert(input_str):
     return input_str.replace(":)", "🙂").replace(":(", "🙁")
 

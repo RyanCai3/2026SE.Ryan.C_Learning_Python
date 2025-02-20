@@ -1,4 +1,4 @@
-# Prompt the user for input and convert space to "..."
+# Prompt the user for input and convert the spaces to "..."
 user_input = input("--> ")
 playback = user_input.replace(" ", "...")
 

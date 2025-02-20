@@ -6,11 +6,11 @@ def main():
     tip = price * percentage
     print(f"Leave ${tip:.2f}")
 
-# Remove the dollar sign and convert the string to float
+# Remove the dollar sign from input and convert to float
 def price_to_float(input_string):
     return float(input_string.strip("$"))
 
-# Remove the percentage sign and convert the string to float
+# Remove the percentage sign from input and convert to float
 def percentage_to_float(input_string):
     return float(input_string.strip("%")) / 100
 

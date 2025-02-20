@@ -1,8 +1,8 @@
 # Prompts the user for mass in kilograms
-m = int(input("Enter the mass in kilograms: "))
+mass = int(input("Enter the mass in kilograms: "))
 
 # Equation "F = mc²"
-c = 300000000
-F = m * c**2
+speed_of_light = 300000000
+energy = mass * speed_of_light**2
 
-print(f"The equivalent energy is {F} Joules.")
+print(f"The equivalent energy is {energy} Joules.")
