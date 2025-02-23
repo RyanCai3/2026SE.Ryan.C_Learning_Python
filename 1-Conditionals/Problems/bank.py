@@ -1,10 +1,8 @@
-# Strip whitespace from input and convert to lowercase for standardisation
-def standardise(input_string):
-    return input_string.strip().lower()
-
 # Prompt the user for input as a greeting
 user_input = input("Greeting: ")
-new_string = standardise(user_input)
+
+# Strip whitespace from input and convert to lowercase for standardisation
+new_string = user_input.strip().lower()
 
 # Check if the greeting starts with a "Hello" or an "H"
 if new_string.startswith("hello"):
